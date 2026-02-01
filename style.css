@@ -11,8 +11,39 @@ body {
 }
 
 .header {
-    background-color: aquamarine;
     grid-column: 2;
+    display: grid;
+}
+
+.first-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.helper {
+    display: grid;
+    grid-template-columns: 2fr /*1fr*/;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 15px;
+    align-content: center;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+}
+
+.search-icon {
+    justify-self: end;
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .sidebar {
