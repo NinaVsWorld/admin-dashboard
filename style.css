@@ -51,8 +51,8 @@ input {
 }
 
 .profile-large {
-    width: 4rem;
-    size: 4rem;
+    width: 4.5rem;
+    size: 4.5rem;
 }
 
 .user-greeting {
@@ -60,6 +60,8 @@ input {
     grid-template-columns: repeat(2, max-content);
     padding-left: 2em;
     padding-top: 2em;
+    align-items: center;
+    gap: 20px;
 }
 
 .user-name {
@@ -82,13 +84,22 @@ input {
     grid-template-columns: 1fr 1fr;
 }
 
+.greeting {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.social-address {
+    font-size: 1.75rem;
+}
+
 .sidebar {
     font-size: 1.25rem;
-    background-color: aqua;
     grid-row: 1 / 3;
     display: grid;
     grid-template-rows: 3fr 50px 3fr ;
-    background-color: #5b7fd2;
+    background-color: #073b27;
     color: white;
 }
 
