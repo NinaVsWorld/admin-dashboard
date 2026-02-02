@@ -14,6 +14,8 @@ body {
 .header {
     grid-column: 2;
     display: grid;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .first-row {
@@ -31,7 +33,7 @@ body {
 }
 
 input {
-    width: 500px;
+    width: 650px;
     height: 30px;
     background-color: #D3D3D3;
     border-radius: 20px;
@@ -62,6 +64,7 @@ input {
     padding-top: 2em;
     align-items: center;
     gap: 20px;
+    padding-bottom: 1em;
 }
 
 .user-name {
@@ -73,10 +76,10 @@ input {
     display: grid;
     grid-template-columns: repeat(3, max-content);
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     column-gap: 30px;
     padding-top: 1em;
-    padding-left: 2em;
+    padding-right: 4em;
 }
 
 .second-row {
@@ -92,6 +95,32 @@ input {
 
 .social-address {
     font-size: 1.75rem;
+}
+
+.buttons {
+    display: grid;
+    justify-content: center;
+    padding-top: 2em;
+    justify-content: end;
+    padding-right: 4em;
+}
+
+.buttons-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: end;
+    gap: 30px;
+}
+
+button {
+    width: 95px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #073b27;
+    color: white;
+    font-weight: 600;
 }
 
 .sidebar {
