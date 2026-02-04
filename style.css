@@ -7,7 +7,7 @@
 body {
     display: grid;
     grid-template-rows: repeat(2, max-content);
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 30ch 1fr;
     font-family: "Roboto", sans-serif;
 
     --bg-color: #073b27;
